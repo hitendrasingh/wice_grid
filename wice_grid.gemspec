@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   s.license       = 'MIT'
   s.require_paths = ['lib']
-  s.date          = '2018-11-28'
+  s.date          = '2024-01-11'
 
-  s.add_dependency 'rails', '~> 5.0', '< 5.3'
+  s.add_dependency 'rails', '~> 7.0', '< 7.0.1'
   s.add_dependency 'kaminari',          ['~> 1.1']
   s.add_dependency 'coffee-rails',      ['> 3.2']
 
@@ -23,20 +23,20 @@ Gem::Specification.new do |s|
   s.add_development_dependency('byebug')
   s.add_development_dependency('appraisal')
 
-  s.add_development_dependency('rspec', '~> 3.6.0')
-  s.add_development_dependency('rspec-rails', '~> 3.6.0')
-  s.add_development_dependency('shoulda-matchers', '2.8.0')
+  s.add_development_dependency('rspec', '~> 3.12.0')
+  s.add_development_dependency('rspec-rails', '~> 6.1.0')
+  s.add_development_dependency('shoulda-matchers', '6.0.0')
   s.add_development_dependency('capybara', '~> 3.13.2')
-  s.add_development_dependency('faker', '~> 1.8.7')
+  s.add_development_dependency('faker', '~> 3.2.2')
   s.add_development_dependency('poltergeist', '~> 1.18.0')
   s.add_development_dependency('capybara-screenshot', '~> 1.0.11')
   s.add_development_dependency('selenium-webdriver', '~> 2.51.0')
 
   # Required by the test app.
-  s.add_development_dependency('haml', '~> 5.0.4')
+  s.add_development_dependency('haml', '~> 6.3.0')
   s.add_development_dependency('coderay', '~> 1.1.0')
-  s.add_development_dependency('jquery-rails', '~> 4.3.3')
-  s.add_development_dependency('jquery-ui-rails', '~> 5.0.5')
+  s.add_development_dependency('jquery-rails', '~> 4.4.0')
+  s.add_development_dependency('jquery-ui-rails', '~> 7.0.0')
   s.add_development_dependency('jquery-ui-themes', '~> 0.0.11')
   s.add_development_dependency('sass-rails', '>= 3.2')
   s.add_development_dependency('bootstrap-sass', '3.1.1.1')
